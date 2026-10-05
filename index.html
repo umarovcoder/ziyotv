@@ -155,27 +155,79 @@
                         <p class="eyebrow">03 / Ishtirokchilar fikrlari</p>
                         <h2 id="social-proof-title">O‘zgarishni boshdan kechirganlar.</h2>
                     </div>
-                    <p class="section-heading__note">Meditatsiya va affirmatsiyalar orqali o‘zida natija sezgan ishtirokchilarning haqiqiy fikrlari.</p>
+                    <p class="section-heading__note">Meditatsiya va affirmatsiyalar orqali o‘zida natija sezgan ishtirokchilarning fikrlari.</p>
                 </div>
 
-                <article class="testimonial-card">
-                    <div class="testimonial-card__person">
-                        <div class="testimonial-card__avatar-wrap">
-                            <img class="testimonial-card__avatar" src="assets/user1.png" alt="Ishtirokchi surati">
-                        </div>
-                        <div class="testimonial-card__person-meta">
-                            <span class="testimonial-card__eyebrow">Ishtirokchi fikri</span>
-                            <span class="testimonial-card__verified">Haqiqiy tajriba</span>
-                        </div>
+                <div class="testimonial-carousel" aria-label="Ishtirokchilar fikrlari">
+                    <div class="testimonial-carousel__track">
+                        <article class="testimonial-card testimonial-card--slide is-active">
+                            <div class="testimonial-card__person">
+                                <div class="testimonial-card__avatar-wrap">
+                                    <img class="testimonial-card__avatar" src="assets/user1.png" alt="Ishtirokchi surati">
+                                </div>
+                                <div class="testimonial-card__person-meta">
+                                    <span class="testimonial-card__eyebrow">Ishtirokchi fikri</span>
+                                    <span class="testimonial-card__verified">Haqiqiy tajriba</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__content">
+                                <span class="testimonial-card__quote-mark" aria-hidden="true">“</span>
+                                <blockquote>
+                                    <p>Hasadni yo‘qotdim, ichimda xotirjamlik paydo bo‘ldi. Shu 21 kun ichida o‘zimda juda katta o‘zgarish sezdim — mazza qilib yashashni boshladim.</p>
+                                    <p>Eng katta orzularimdan biri bo‘lgan mashinani oldim, yaxshi insonlar yo‘limdan chiqa boshladi. O‘zim orzu qilgan joydan ishga taklif qilishdi — men kutgan maoshdan 2 baravar ko‘proq edi. Universitetga o‘qishga kirdim.</p>
+                                </blockquote>
+                            </div>
+                        </article>
+
+                        <article class="testimonial-card testimonial-card--slide">
+                            <div class="testimonial-card__person">
+                                <div class="testimonial-card__avatar-wrap">
+                                    <img class="testimonial-card__avatar" src="assets/user2.png" alt="Ishtirokchi surati">
+                                </div>
+                                <div class="testimonial-card__person-meta">
+                                    <span class="testimonial-card__eyebrow">Ishtirokchi fikri</span>
+                                    <span class="testimonial-card__verified">Meditatsiya</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__content">
+                                <span class="testimonial-card__quote-mark" aria-hidden="true">“</span>
+                                <blockquote>
+                                    <p>Avval meditatsiyaga unchalik ishonmasdim, lekin 21 kun davomida muntazam bajarganimdan keyin ichki holatim ancha o‘zgardi. O‘zimni xotirjamroq his qila boshladim, ortiqcha xavotir va salbiy fikrlarga kamroq beriladigan bo‘ldim.</p>
+                                    <p>Eng muhimi, o‘zimga va hayotimga boshqacha qarashni boshladim.</p>
+                                </blockquote>
+                            </div>
+                        </article>
+
+                        <article class="testimonial-card testimonial-card--slide">
+                            <div class="testimonial-card__person">
+                                <div class="testimonial-card__avatar-wrap">
+                                    <img class="testimonial-card__avatar" src="assets/user3.png" alt="Ishtirokchi surati">
+                                </div>
+                                <div class="testimonial-card__person-meta">
+                                    <span class="testimonial-card__eyebrow">Ishtirokchi fikri</span>
+                                    <span class="testimonial-card__verified">Affirmatsiya</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__content">
+                                <span class="testimonial-card__quote-mark" aria-hidden="true">“</span>
+                                <blockquote>
+                                    <p>Affirmatsiyalarni har kuni takrorlash oddiy narsa deb o‘ylagandim. Lekin muntazam qilganim sari o‘zimga bo‘lgan ishonchim oshayotganini sezdim.</p>
+                                    <p>Oldin qo‘rqib yurgan narsalarimga harakat qila boshladim, imkoniyatlarni boshqacha ko‘radigan bo‘ldim. Eng katta natija — o‘zimni cheklab turgan fikrlarimni anglay boshlaganim.</p>
+                                </blockquote>
+                            </div>
+                        </article>
                     </div>
-                    <div class="testimonial-card__content">
-                        <span class="testimonial-card__quote-mark" aria-hidden="true">“</span>
-                        <blockquote>
-                            <p>Hasadni yo‘qotdim, ichimda xotirjamlik paydo bo‘ldi. Shu 21 kun ichida o‘zimda juda katta o‘zgarish sezdim — mazza qilib yashashni boshladim.</p>
-                            <p>Eng katta orzularimdan biri bo‘lgan mashinani oldim, yaxshi insonlar yo‘limdan chiqa boshladi. O‘zim orzu qilgan joydan ishga taklif qilishdi — men kutgan maoshdan 2 baravar ko‘proq edi. Universitetga o‘qishga kirdim.</p>
-                        </blockquote>
+
+                    <div class="testimonial-carousel__controls">
+                        <button class="testimonial-carousel__arrow" type="button" data-testimonial-prev aria-label="Oldingi fikr">←</button>
+                        <div class="testimonial-carousel__dots" role="tablist" aria-label="Fikrlar">
+                            <button class="testimonial-carousel__dot is-active" type="button" data-testimonial-dot="0" aria-label="1-fikr" aria-selected="true"></button>
+                            <button class="testimonial-carousel__dot" type="button" data-testimonial-dot="1" aria-label="2-fikr" aria-selected="false"></button>
+                            <button class="testimonial-carousel__dot" type="button" data-testimonial-dot="2" aria-label="3-fikr" aria-selected="false"></button>
+                        </div>
+                        <button class="testimonial-carousel__arrow" type="button" data-testimonial-next aria-label="Keyingi fikr">→</button>
                     </div>
-                </article>
+                </div>
             </div>
         </section>
 
@@ -257,5 +309,35 @@
             <p>Ziyovuddin Khakimov</p>
         </div>
     </footer>
+<script>
+(function () {
+    const slides = Array.from(document.querySelectorAll('.testimonial-card--slide'));
+    const dots = Array.from(document.querySelectorAll('[data-testimonial-dot]'));
+    const prev = document.querySelector('[data-testimonial-prev]');
+    const next = document.querySelector('[data-testimonial-next]');
+    if (!slides.length) return;
+    let current = 0;
+    let timer;
+
+    function show(index) {
+        current = (index + slides.length) % slides.length;
+        slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
+        dots.forEach((dot, i) => {
+            const active = i === current;
+            dot.classList.toggle('is-active', active);
+            dot.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+    }
+    function restart() {
+        clearInterval(timer);
+        timer = setInterval(() => show(current + 1), 6000);
+    }
+    prev?.addEventListener('click', () => { show(current - 1); restart(); });
+    next?.addEventListener('click', () => { show(current + 1); restart(); });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); restart(); }));
+    show(0);
+    restart();
+})();
+</script>
 </body>
 </html>
